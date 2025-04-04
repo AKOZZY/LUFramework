@@ -24,6 +24,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 int main()
 {
     // Init LU and GLFW
+    // test
     LUFramework lu{};
 
     // Init Window and check if window has failed to init
