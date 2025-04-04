@@ -1,0 +1,12 @@
+﻿  EBO.cpp
+  LUFramework.cpp
+  Main.cpp
+C:\Users\kenny\OneDrive\Desktop\LUEngine\Engine\Main.cpp(103,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Shader.cpp
+  VAO.cpp
+  VBO.cpp
+  Generating Code...
+C:\Users\kenny\OneDrive\Desktop\LUEngine\Engine\LUFramework.cpp(37): warning C4715: 'LUFramework::GetKeyDown': not all control paths return a value
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Engine.vcxproj -> C:\Users\kenny\OneDrive\Desktop\LUEngine\x64\Debug\Engine.exe
