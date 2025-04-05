@@ -34,6 +34,9 @@
     <Filter Include="Source Files\TextureLoading">
       <UniqueIdentifier>{c1005e9b-989f-49b8-989e-03d62da1eeec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{9c85517e-792b-43d1-88f6-7d2381189a71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -88,5 +91,10 @@
     <None Include="defaultVertShader.vert">
       <Filter>Source Files\Shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\Textures\epicface.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>

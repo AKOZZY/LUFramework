@@ -31,6 +31,11 @@ struct Colour
 	float a{}; // Alpha
 };
 
+struct Texture
+{
+	unsigned int ID{};
+};
+
 class LUFramework
 {
 public:

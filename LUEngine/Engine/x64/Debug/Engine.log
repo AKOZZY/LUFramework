@@ -1,6 +1,3 @@
-﻿  LUFramework.cpp
-  Main.cpp
-C:\Users\kenny\OneDrive\Documents\LUFramework\LUEngine\Engine\Main.cpp(105,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Generating Code...
-C:\Users\kenny\OneDrive\Documents\LUFramework\LUEngine\Engine\LUFramework.cpp(37): warning C4715: 'LUFramework::GetKeyDown': not all control paths return a value
+﻿  Main.cpp
+C:\Users\kenny\OneDrive\Documents\LUFramework\LUEngine\Engine\Main.cpp(135,35): warning C4305: 'initializing': truncation from 'double' to 'float'
   Engine.vcxproj -> C:\Users\kenny\OneDrive\Documents\LUFramework\LUEngine\x64\Debug\Engine.exe
