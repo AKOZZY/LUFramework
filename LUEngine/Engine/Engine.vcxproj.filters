@@ -28,6 +28,12 @@
     <Filter Include="Header Files\Shaders">
       <UniqueIdentifier>{50214709-6ff9-4c8a-81af-afc91b6eb719}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\TextureLoading">
+      <UniqueIdentifier>{ae14d2be-6a1d-4484-879b-c0aba5a03158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureLoading">
+      <UniqueIdentifier>{c1005e9b-989f-49b8-989e-03d62da1eeec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -51,6 +57,9 @@
     <ClCompile Include="EBO.cpp">
       <Filter>Source Files\GLObjects</Filter>
     </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\TextureLoading</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LUFramework.h">
@@ -67,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="Shader.h">
       <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\TextureLoading</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

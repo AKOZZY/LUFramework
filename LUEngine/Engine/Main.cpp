@@ -1,9 +1,13 @@
+// GLAD AND GLFW
 #include "src/glad/include/glad/glad.h"
 #include "src/GLFW/include/glfw3.h"
+// GLM
 #include "src/glm/glm.hpp"
 #include "src/glm/gtc/matrix_transform.hpp"
 #include "src/glm/gtc/type_ptr.hpp"
-
+// Stb Image
+#include "stb_image.h"
+// STL
 #include <iostream>
 #include <cmath>
 
@@ -24,7 +28,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 int main()
 {
     // Init LU and GLFW
-    // test
     LUFramework lu{};
 
     // Init Window and check if window has failed to init
@@ -93,8 +96,6 @@ int main()
         // >> UPDATE << //
         if (lu.GetKeyDown(GLFW_KEY_ESCAPE)) glfwSetWindowShouldClose(lu.GetWindow(), true);
 
-        //trans = glm::translate(trans, glm::vec3(positon.x, positon.y, 0));
-
         if (lu.GetKeyDown(GLFW_KEY_W)) trans = glm::translate(trans, glm::vec3(0, positon.y + 0.1, 0));
         if (lu.GetKeyDown(GLFW_KEY_S)) trans = glm::translate(trans, glm::vec3(0, positon.y - 0.1, 0));
         if (lu.GetKeyDown(GLFW_KEY_A)) trans = glm::translate(trans, glm::vec3(positon.x - 0.1, 0, 0));
@@ -104,12 +105,12 @@ int main()
         lu.ClearBackground(Colour{COLOUR_OPENGL_DEFAULT});
 
         shader.Activate();
-
-        unsigned int transformLoc = glGetUniformLocation(shader.ID, "transform");
-        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+        
+        shader.SetUniformMatrix4("transform", trans);
 
         vao.Bind();
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
         vao.Unbind();
 
         glfwSwapBuffers(lu.GetWindow());

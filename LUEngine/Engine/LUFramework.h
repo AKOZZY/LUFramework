@@ -54,7 +54,7 @@ private:
 };
 
 // Template Functions
-template <typename T> void DebugLog(T input)
+template <typename T> void LogToConsole(T input)
 {
 	std::cout << input << "\n";
 }
