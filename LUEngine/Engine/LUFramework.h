@@ -5,6 +5,8 @@
 #include "src/glad/include/glad/glad.h"
 #include "src/GLFW/include/glfw3.h"
 
+#include "stb_image.h"
+
 #include "Shader.h"
 #include "VBO.h"
 #include "VAO.h"
@@ -34,6 +36,9 @@ struct Colour
 struct Texture
 {
 	unsigned int ID{};
+	int width{};
+	int height{};
+	int channels{};
 };
 
 class LUFramework
@@ -47,10 +52,13 @@ public:
 
 	// Render
 	void ClearBackground(Colour colour);
-	void DrawSquare();
+	void DrawSquare(VAO vao, VBO vbo, Vector2 positon);
 
 	// Inputs
 	bool GetKeyDown(int input);
+
+	// Texture
+	Texture LoadTexture(const char* filePath);
 
 private:
 	const unsigned int SCR_WIDTH{ 800 };

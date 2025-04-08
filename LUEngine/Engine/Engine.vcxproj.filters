@@ -63,6 +63,9 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>Source Files\TextureLoading</Filter>
     </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LUFramework.h">
@@ -82,6 +85,9 @@
     </ClInclude>
     <ClInclude Include="stb_image.h">
       <Filter>Header Files\TextureLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
