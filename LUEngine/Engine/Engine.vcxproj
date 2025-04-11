@@ -137,7 +137,6 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="LUFramework.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Obj.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="VAO.cpp" />
@@ -146,7 +145,6 @@
   <ItemGroup>
     <ClInclude Include="EBO.h" />
     <ClInclude Include="LUFramework.h" />
-    <ClInclude Include="Obj.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="VAO.h" />

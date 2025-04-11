@@ -86,7 +86,7 @@ int main()
     // Init object matrix
     Vector2 positon{};
     glm::mat4 trans = glm::mat4(1.0f);
-    trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+    trans = glm::scale(trans, glm::vec3(0.1, 0.1, 0.1));
 
     // Unbind
     vao.Unbind();
