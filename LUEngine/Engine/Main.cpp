@@ -18,7 +18,7 @@
 #include "EBO.h"
 
 const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_HEIGHT = 800;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
@@ -104,10 +104,47 @@ int main()
         // >> UPDATE << //
         if (lu.GetKeyDown(GLFW_KEY_ESCAPE)) glfwSetWindowShouldClose(lu.GetWindow(), true);
 
-        if (lu.GetKeyDown(GLFW_KEY_W)) trans = glm::translate(trans, glm::vec3(0, positon.y + 0.1, 0));
-        if (lu.GetKeyDown(GLFW_KEY_S)) trans = glm::translate(trans, glm::vec3(0, positon.y - 0.1, 0));
-        if (lu.GetKeyDown(GLFW_KEY_A)) trans = glm::translate(trans, glm::vec3(positon.x - 0.1, 0, 0));
-        if (lu.GetKeyDown(GLFW_KEY_D)) trans = glm::translate(trans, glm::vec3(positon.x + 0.1, 0, 0));
+        if (lu.GetKeyDown(GLFW_KEY_W))
+        {
+            positon.y += 0.1;
+        }
+        if (lu.GetKeyDown(GLFW_KEY_S))
+        {
+            positon.y -= 0.1;
+        }
+        if (lu.GetKeyDown(GLFW_KEY_A))
+        {
+            positon.x -= 0.1;
+        }
+        if (lu.GetKeyDown(GLFW_KEY_D))
+        {
+            positon.x += 0.1;
+        }
+
+        // Player bounds
+        if (positon.x < -10)
+        {
+            positon.x = -10;
+        }
+        if (positon.x > 10)
+        {
+            positon.x = 10;
+        }
+        if (positon.y < -10)
+        {
+            positon.y = -10;
+        }
+        if (positon.y > 10)
+        {
+            positon.y = 10;
+        }
+
+        trans = glm::mat4(1.0f);
+        trans = glm::scale(trans, glm::vec3(0.1, 0.1, 0.1));
+        trans = glm::translate(trans, glm::vec3(positon.x, positon.y, 0));
+
+        
+        
 
         // >> RENDER << //
         lu.ClearBackground(Colour{COLOUR_OPENGL_DEFAULT});
