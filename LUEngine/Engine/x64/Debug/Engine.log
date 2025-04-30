@@ -1,7 +1,16 @@
-﻿  Main.cpp
-C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(109,29): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(113,29): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(117,29): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(121,29): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(150,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Engine.vcxproj -> C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\x64\Debug\Engine.exe
+﻿  EBO.cpp
+  LUFramework.cpp
+  Main.cpp
+  Shader.cpp
+C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(109,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(113,26): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(117,26): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(121,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(150,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+  stb_image.cpp
+  VAO.cpp
+  VBO.cpp
+  Generating Code...
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Engine.vcxproj -> C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\x64\Debug\Engine.exe

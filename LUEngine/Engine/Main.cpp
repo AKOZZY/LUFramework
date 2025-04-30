@@ -106,19 +106,19 @@ int main()
 
         if (lu.GetKeyDown(GLFW_KEY_W))
         {
-            positon.y += 0.1;
+            positon.y += 0.01;
         }
         if (lu.GetKeyDown(GLFW_KEY_S))
         {
-            positon.y -= 0.1;
+            positon.y -= 0.01;
         }
         if (lu.GetKeyDown(GLFW_KEY_A))
         {
-            positon.x -= 0.1;
+            positon.x -= 0.01;
         }
         if (lu.GetKeyDown(GLFW_KEY_D))
         {
-            positon.x += 0.1;
+            positon.x += 0.01;
         }
 
         // Player bounds
@@ -143,9 +143,6 @@ int main()
         trans = glm::scale(trans, glm::vec3(0.1, 0.1, 0.1));
         trans = glm::translate(trans, glm::vec3(positon.x, positon.y, 0));
 
-        
-        
-
         // >> RENDER << //
         lu.ClearBackground(Colour{COLOUR_OPENGL_DEFAULT});
 
@@ -153,7 +150,6 @@ int main()
         
         shader.SetUniformMatrix4("transform", trans);
 
-        //glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, epicface.ID);
         vao.Bind();
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);

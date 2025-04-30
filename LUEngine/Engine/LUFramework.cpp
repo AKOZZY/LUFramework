@@ -39,13 +39,21 @@ void LUFramework::DrawSquare(VAO vao, VBO vbo, Vector2 positon)
 
 bool LUFramework::GetKeyDown(int input)
 {
-    if (glfwGetKey(window, input) == GLFW_PRESS) return true;
+    if (glfwGetKey(window, input) == GLFW_PRESS)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 Texture LUFramework::LoadTexture(const char* filePath)
 {
     // Create Texture
     Texture texture{};
+    std::cout << texture.ID;
     // Texture stuff
     glGenTextures(1, &texture.ID);
     glBindTexture(GL_TEXTURE_2D, texture.ID);
@@ -67,6 +75,7 @@ Texture LUFramework::LoadTexture(const char* filePath)
         std::cout << "Failed to load texture" << std::endl;
     }
     stbi_image_free(data);
+    std::cout << texture.ID;
     return texture;
 }
 
