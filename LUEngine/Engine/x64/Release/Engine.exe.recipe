@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< Updated upstream
       <FullPath>C:\Users\kenny\OneDrive\Documents\GitHub\LUFramework\LUEngine\x64\Release\Engine.exe</FullPath>
+=======
+      <FullPath>C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\x64\Release\Engine.exe</FullPath>
+>>>>>>> Stashed changes
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
