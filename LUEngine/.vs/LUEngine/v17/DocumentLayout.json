@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\LUFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,24 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Main.cpp",
               "RelativeDocumentMoniker": "Engine\\Main.cpp",
               "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Main.cpp",
               "RelativeToolTip": "Engine\\Main.cpp",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-07T12:59:26.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h",
               "RelativeDocumentMoniker": "Engine\\GameObject.h",
@@ -88,13 +88,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp",
               "RelativeDocumentMoniker": "Engine\\GameObject.cpp",
               "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp",
               "RelativeToolTip": "Engine\\GameObject.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-07T12:59:26.3Z",
               "EditorCaption": ""
