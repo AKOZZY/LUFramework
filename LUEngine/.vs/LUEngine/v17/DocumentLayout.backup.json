@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A18CAC86-7A18-4321-9A47-1EF2B703DF0D}|Engine\\Engine.vcxproj|C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\LUFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -68,39 +64,28 @@
               "RelativeDocumentMoniker": "Engine\\Main.cpp",
               "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Main.cpp",
               "RelativeToolTip": "Engine\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-07T12:59:26.229Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h",
-              "RelativeDocumentMoniker": "Engine\\GameObject.h",
-              "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.h",
-              "RelativeToolTip": "Engine\\GameObject.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-07T12:59:26.262Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameObject.cpp",
-              "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp",
-              "RelativeDocumentMoniker": "Engine\\GameObject.cpp",
-              "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\GameObject.cpp",
-              "RelativeToolTip": "Engine\\GameObject.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-07T12:59:26.3Z",
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Game.h",
+              "RelativeDocumentMoniker": "Engine\\Game.h",
+              "ToolTip": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Game.h",
+              "RelativeToolTip": "Engine\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-25T18:35:03.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LUFramework.h",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\LUFramework.h",
               "RelativeDocumentMoniker": "Engine\\LUFramework.h",
@@ -112,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LUFramework.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\LUFramework.cpp",
               "RelativeDocumentMoniker": "Engine\\LUFramework.cpp",
@@ -124,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Shader.cpp",
               "RelativeDocumentMoniker": "Engine\\Shader.cpp",
@@ -136,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\Shader.h",
               "RelativeDocumentMoniker": "Engine\\Shader.h",
@@ -148,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "EBO.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\EBO.cpp",
               "RelativeDocumentMoniker": "Engine\\EBO.cpp",
@@ -160,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "defaultVertShader.vert",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\defaultVertShader.vert",
               "RelativeDocumentMoniker": "Engine\\defaultVertShader.vert",
@@ -172,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "defaultFragShader.frag",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\defaultFragShader.frag",
               "RelativeDocumentMoniker": "Engine\\defaultFragShader.frag",
@@ -184,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "VAO.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\VAO.cpp",
               "RelativeDocumentMoniker": "Engine\\VAO.cpp",
@@ -196,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "stb_image.cpp",
               "DocumentMoniker": "C:\\Users\\kenny\\Documents\\GitHub\\LUFramework\\LUEngine\\Engine\\stb_image.cpp",
               "RelativeDocumentMoniker": "Engine\\stb_image.cpp",

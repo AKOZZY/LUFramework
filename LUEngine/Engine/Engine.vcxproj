@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EBO.cpp" />
-    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="LUFramework.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -145,7 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EBO.h" />
-    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="LUFramework.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />

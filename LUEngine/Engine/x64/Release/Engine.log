@@ -1,5 +1,4 @@
-﻿  EBO.cpp
-  GameObject.cpp
+﻿  GameObject.cpp
   LUFramework.cpp
   Main.cpp
   Shader.cpp
@@ -8,13 +7,9 @@ C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(113,30): wa
 C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(117,30): warning C4305: '-=': truncation from 'double' to 'float'
 C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(121,30): warning C4305: '+=': truncation from 'double' to 'float'
 C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\Engine\Main.cpp(147,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-  stb_image.cpp
-  VAO.cpp
-  VBO.cpp
-  glad.c
   Generating code
-  4 of 431 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+  0 of 431 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    8 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Engine.vcxproj -> C:\Users\kenny\Documents\GitHub\LUFramework\LUEngine\x64\Release\Engine.exe
